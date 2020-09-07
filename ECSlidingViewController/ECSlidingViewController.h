@@ -70,7 +70,7 @@
 /**
  Called to allow the delegate to return an interactive animator object for use during a transition.
  
- Returning an object will disable the sliding view controller's `transitionCoordinator` block given to `notifyWhenInteractionEndsUsingBlock:`
+ Returning an object will disable the sliding view controller's `transitionCoordinator` block given to `notifyWhenInteractionChangesUsingBlock:`
  
  @param slidingViewController The sliding view controller that is being transitioned.
  @param animationController The non-interactive animator object. This will be the same object that is returned from `slidingViewController:animationController:topViewController`.
